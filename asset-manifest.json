@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.d268f027.css",
-    "main.js": "/react-portfolio/static/js/main.2d67353f.js",
+    "main.js": "/react-portfolio/static/js/main.eb5c9b96.js",
     "static/media/mopizza.jpg": "/react-portfolio/static/media/mopizza.0c1c5e067c18960e55fa.jpg",
     "static/media/donations_platform.jpg": "/react-portfolio/static/media/donations_platform.011c3e8f6e310f1bcf5b.jpg",
     "static/media/projects_rater.jpg": "/react-portfolio/static/media/projects_rater.ba1358fb273c3c82523d.jpg",
@@ -12,10 +12,10 @@
     "static/media/contact1.png": "/react-portfolio/static/media/contact1.357c7c60f25866f72585.png",
     "index.html": "/react-portfolio/index.html",
     "main.d268f027.css.map": "/react-portfolio/static/css/main.d268f027.css.map",
-    "main.2d67353f.js.map": "/react-portfolio/static/js/main.2d67353f.js.map"
+    "main.eb5c9b96.js.map": "/react-portfolio/static/js/main.eb5c9b96.js.map"
   },
   "entrypoints": [
     "static/css/main.d268f027.css",
-    "static/js/main.2d67353f.js"
+    "static/js/main.eb5c9b96.js"
   ]
 }
