@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.d268f027.css",
-    "main.js": "/react-gh-pages/static/js/main.8d22fd44.js",
-    "static/media/mopizza.jpg": "/react-gh-pages/static/media/mopizza.0c1c5e067c18960e55fa.jpg",
-    "static/media/donations_platform.jpg": "/react-gh-pages/static/media/donations_platform.011c3e8f6e310f1bcf5b.jpg",
-    "static/media/projects_rater.jpg": "/react-gh-pages/static/media/projects_rater.ba1358fb273c3c82523d.jpg",
-    "static/media/igallery.jpg": "/react-gh-pages/static/media/igallery.ddda315f9b48f54dae45.jpg",
-    "static/media/image1.jpg": "/react-gh-pages/static/media/image1.8dec220aee7ee2166c03.jpg",
-    "static/media/gitsearch.jpg": "/react-gh-pages/static/media/gitsearch.451adf28e40ef572c4a8.jpg",
-    "static/media/pitched.jpg": "/react-gh-pages/static/media/pitched.5b2b01cf3fc7738580ce.jpg",
-    "static/media/contact1.png": "/react-gh-pages/static/media/contact1.357c7c60f25866f72585.png",
-    "index.html": "/react-gh-pages/index.html",
-    "main.d268f027.css.map": "/react-gh-pages/static/css/main.d268f027.css.map",
-    "main.8d22fd44.js.map": "/react-gh-pages/static/js/main.8d22fd44.js.map"
+    "main.css": "/react-portfolio/static/css/main.d268f027.css",
+    "main.js": "/react-portfolio/static/js/main.2d67353f.js",
+    "static/media/mopizza.jpg": "/react-portfolio/static/media/mopizza.0c1c5e067c18960e55fa.jpg",
+    "static/media/donations_platform.jpg": "/react-portfolio/static/media/donations_platform.011c3e8f6e310f1bcf5b.jpg",
+    "static/media/projects_rater.jpg": "/react-portfolio/static/media/projects_rater.ba1358fb273c3c82523d.jpg",
+    "static/media/igallery.jpg": "/react-portfolio/static/media/igallery.ddda315f9b48f54dae45.jpg",
+    "static/media/image1.jpg": "/react-portfolio/static/media/image1.8dec220aee7ee2166c03.jpg",
+    "static/media/gitsearch.jpg": "/react-portfolio/static/media/gitsearch.451adf28e40ef572c4a8.jpg",
+    "static/media/pitched.jpg": "/react-portfolio/static/media/pitched.5b2b01cf3fc7738580ce.jpg",
+    "static/media/contact1.png": "/react-portfolio/static/media/contact1.357c7c60f25866f72585.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.d268f027.css.map": "/react-portfolio/static/css/main.d268f027.css.map",
+    "main.2d67353f.js.map": "/react-portfolio/static/js/main.2d67353f.js.map"
   },
   "entrypoints": [
     "static/css/main.d268f027.css",
-    "static/js/main.8d22fd44.js"
+    "static/js/main.2d67353f.js"
   ]
 }
