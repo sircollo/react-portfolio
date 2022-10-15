@@ -1,37 +1,62 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
 
-/* .navbar{
-  position: fixed;
-  padding: 0px 30px 50px 70px;
-  
-} */
 .navbar-brand{
   font-family: 'Dancing Script';
   font-size: 30px;
 }
-.nav-link{
-  color: black;
-  text-align: center;
+.container-fluid{
+  padding-left: 60px;
 }
-.bg-light{
-  background-color: #FFFFFF !important;
+li{
+  list-style-type: none;
+  text-decoration: none;
 }
-.navbar-nav{
+.nav-social{
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  margin-left: auto;
+  justify-content: center;
+  align-items: center;
+  
+
 }
-.nav-link{
-  display: flex;
-  justify-content: flex-start;
-}
-.social-links ul{
-  display: flex;
-  flex-direction: row;
-  margin: auto;
+.nav-social li{
+  padding: 8px 10px 0 5px;
   
 }
-.social-links ul li{
-  list-style-type: none;
-  padding-left: 20px;  
+.nav-link{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  font-size: 15px;
+}
+.register-button{
+  display: flex;
+  align-items: center;
+  color: black;
+  
+}
+.nav-link:hover{
+  cursor: pointer;
+}
+@media(max-width:991px){
+  .nav-social{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+  
+  }
+  .nav-social li{
+    padding-top: 5px;
+    
+  }
+  ul.nav-social{
+    margin: 0px;
+    padding: 0px;
+  }
+  .nav-social a{
+    padding: 8px 0 8px 0;
+  }
+  .container-fluid{
+    padding-left: 20px;
+  }
 }
