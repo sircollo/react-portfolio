@@ -7,7 +7,7 @@ function Contact() {
       <div className='leftSide'
       style={{backgroundImage:`url(${ContactImage})`}}></div>
       <div className='rightSide'>
-        <h1>Contact Me</h1> 
+        <h1 className='pt-3'>Contact Me</h1> 
         <form id="contact-form">
           <label htmlFor='name'>Full Name</label>
           <input name='name' placeholder='' type="text"/>
