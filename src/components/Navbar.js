@@ -10,8 +10,9 @@ function Navbar() {
       id="navbar"
     >
       <div className="container-fluid">
-        <a class="navbar-brand" routerLink="">
-          C.S
+        <a ><Link to="/" className="navbar-brand">
+        C.S
+        </Link>
         </a>
         <button
           className="navbar-toggler"
