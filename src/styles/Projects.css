@@ -43,6 +43,15 @@
 .projectItem p {
   color: #599596;
 }
+a:hover{
+  text-decoration: none;
+}
+.pt-2:hover{
+  text-decoration: none;
+}
+.pt-2{
+  color: grey;
+}
 @media (max-width:932px){
   .projectItem {
     border-radius: 10px;

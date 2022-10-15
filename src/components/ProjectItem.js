@@ -7,7 +7,6 @@ function ProjectItem({image, name, description, link}) {
       <div style={{ backgroundImage: `url(${image})`}}></div>
       <h5 className='pt-2'>{name}</h5>
       <p>{description}</p>
-      <p>{link}</p>
       </a>
     </div>
   )

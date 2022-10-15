@@ -44,11 +44,11 @@ function Navbar() {
           </ul>
           <ul className="nav-social">
             <li className="nav-item">
-              <a a target="_blank" href="https://github.com/sircollo" className="nav-link active text-dark"><GitHubIcon/></a>
+              <a target="_blank" href="https://github.com/sircollo" className="nav-link active text-dark"><GitHubIcon/></a>
             </li>
             <li>
               <a className="pt-1 mb-4">
-                <a a target="_blank" href="https://www.linkedin.com/in/collins-sirwani-b693bb112/"><LinkedInIcon/></a>
+                <a target="_blank" href="https://www.linkedin.com/in/collins-sirwani-b693bb112/"><LinkedInIcon/></a>
               </a>
             </li>
           </ul>
