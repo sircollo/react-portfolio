@@ -1,7 +1,7 @@
 import React from 'react'
 import '../styles/Navbar.css'
-import{ Link } from 'react-router-dom'
-// import { Link } from 'react-scroll'
+// import{ Link } from 'react-router-dom'
+import { Link } from 'react-scroll'
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 function Navbar() {
@@ -11,7 +11,7 @@ function Navbar() {
       id="navbar"
     >
       <div className="container-fluid">
-        <Link to="/"spy={true} smooth={true} offset={-100} duration={500} className="navbar-brand">
+        <Link to="home"spy={true} smooth={true} offset={-100} duration={500} className="navbar-brand">
         C.S
         </Link>
         <button
@@ -29,7 +29,7 @@ function Navbar() {
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
               {/* <a className="nav-link active"> */}
-                <Link to="/"spy={true} smooth={true} offset={-100} duration={500} className='nav-link'>Home</Link>
+                <Link to="home"spy={true} smooth={true} offset={-100} duration={500} className='nav-link'>Home</Link>
                 {/* </a> */}
             </li>
             <li className="nav-item">
