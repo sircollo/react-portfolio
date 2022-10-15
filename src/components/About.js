@@ -4,6 +4,7 @@ import AboutImage from '../assets/image1.jpg'
 import JavascriptIcon from '@mui/icons-material/Javascript';
 import AcUnitIcon from '@mui/icons-material/AcUnit';
 import PublicIcon from '@mui/icons-material/Public';
+import { Link } from 'react-router-dom'
 function About() {
   return (
     <div className='about'>
@@ -18,7 +19,7 @@ function About() {
           </ul>
         </div>
         <div className='contact-me'>
-        <button className='mt-3'>Contact Me</button>
+        <button className='mt-3'><Link to="/contact" className='contact-link'>Contact Me</Link></button>
         </div>        
       </div>
       <div className='about-image' style={{backgroundImage:`url(${AboutImage})`}}>
