@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+
+/* .navbar{
+  position: fixed;
+  padding: 0px 30px 50px 70px;
+  
+} */
+.navbar-brand{
+  font-family: 'Dancing Script';
+  font-size: 30px;
+}
+.nav-link{
+  color: black;
+  text-align: center;
+}
+.bg-light{
+  background-color: #FFFFFF !important;
+}
+.navbar-nav{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.nav-link{
+  display: flex;
+  justify-content: flex-start;
+}
+.social-links ul{
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  
+}
+.social-links ul li{
+  list-style-type: none;
+  padding-left: 20px;  
+}
