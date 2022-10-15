@@ -28,27 +28,35 @@ function Navbar() {
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
-              <a className="nav-link active"><Link to="/"spy={true} smooth={true} offset={-100} duration={500} className='nav-link'>Home</Link></a>
+              {/* <a className="nav-link active"> */}
+                <Link to="/"spy={true} smooth={true} offset={-100} duration={500} className='nav-link'>Home</Link>
+                {/* </a> */}
             </li>
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page">
+              {/* <a className="nav-link active" aria-current="page"> */}
               <Link to="about" spy={true} smooth={true} offset={-100} duration={500}  className='nav-link active'>About</Link>
-              </a>
+              {/* </a> */}
             </li>
             <li className="nav-item">
-              <a className="nav-link active"><Link to="projects" spy={true} smooth={true} offset={-60} duration={500}  className='nav-link'>Projects</Link></a>
+              {/* <a className="nav-link active"> */}
+                <Link to="projects" spy={true} smooth={true} offset={-60} duration={500}  className='nav-link'>Projects</Link>
+                {/* </a> */}
             </li>
             <li className="nav-item">
-              <a className="nav-link active"><Link to="contact" spy={true} smooth={true} offset={-70} duration={500} className='nav-link'>Contact Me</Link></a>
+              {/* <a className="nav-link active"> */}
+                <Link to="contact" spy={true} smooth={true} offset={-70} duration={500} className='nav-link'>Contact Me</Link>
+                {/* </a> */}
             </li>
           </ul>
           <ul className="nav-social">
             <li className="nav-item">
-              <a target="_blank" href="https://github.com/sircollo" className="nav-link active text-dark"><GitHubIcon/></a>
+              <a target="_blank"rel="noreferrer" href="https://github.com/sircollo" className="nav-link active text-dark">
+                <GitHubIcon/>
+                </a>
             </li>
             <li>
-              <a className="pt-1 mb-4">
-                <a target="_blank" href="https://www.linkedin.com/in/collins-sirwani-b693bb112/"><LinkedInIcon/></a>
+              <a className="pt-1 mb-4" rel="noreferrer">
+                <a target="_blank"rel="noreferrer" href="https://www.linkedin.com/in/collins-sirwani-b693bb112/"><LinkedInIcon/></a>
               </a>
             </li>
           </ul>
