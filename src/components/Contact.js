@@ -3,7 +3,7 @@ import '../styles/Contact.css'
 import ContactImage from '../assets/contact1.png'
 function Contact() {
   return (
-    <div className='contact'>
+    <div className='contact' id='contact'>
       <div className='leftSide'
       style={{backgroundImage:`url(${ContactImage})`}}></div>
       <div className='rightSide'>

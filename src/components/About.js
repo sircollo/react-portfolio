@@ -4,10 +4,11 @@ import AboutImage from '../assets/image1.jpg'
 import JavascriptIcon from '@mui/icons-material/Javascript';
 import AcUnitIcon from '@mui/icons-material/AcUnit';
 import PublicIcon from '@mui/icons-material/Public';
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
+import { Link } from 'react-scroll'
 function About() {
   return (
-    <div className='about'>
+    <div className='about' id='about'>
       <div className='about-text'>
         <h1>&mdash;About Me&mdash;</h1>
         <p className='pt-5'>Full Stack Software Developer with over 1+ years Experience in web development using latest programming technologies such as Python and JavaScript</p>
@@ -19,7 +20,7 @@ function About() {
           </ul>
         </div>
         <div className='contact-me'>
-        <button className='mt-3'><Link to="/contact" className='contact-link'>Contact Me</Link></button>
+        <button className='mt-3'><Link to="contact"spy={true} smooth={true} offset={-100} duration={500} className='contact-link'>Contact Me</Link></button>
         </div>        
       </div>
       <div className='about-image' style={{backgroundImage:`url(${AboutImage})`}}>
