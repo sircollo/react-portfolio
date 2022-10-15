@@ -1,0 +1,71 @@
+.landing{
+  display: flex;
+  flex-direction: row;
+  height: 90vh;
+}
+.intro-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  /* align-items: center; */
+  position: relative;
+  width: 450px;
+  top: 30%;
+}
+.intro-text span{
+  color:#599596;
+}
+.intro-text h1{
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+.intro-text p{
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 18px;
+}
+.buttons{
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+.contactme,.myprojects{
+  color: white;
+  font-size: 24px;
+}
+.myprojects:hover{
+  text-decoration: none;
+  color: white;
+}
+.contactme:hover{
+  text-decoration: none;
+  color: white;
+}
+button:hover{
+  text-decoration: none;
+  color: white;
+  transform: scale(1.0089);
+}
+.buttons .conta{
+  margin-left: 20px;
+}
+.buttons button{
+  background-color: #599596;
+  border: none;
+  color: white;
+  width: 200px;
+  height: 50px;
+  border-radius: 24px;
+  margin-top: 40px;
+}
+.hero-image{
+  background-size: cover;
+  height: auto;
+  flex:40%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 30px;
+}
