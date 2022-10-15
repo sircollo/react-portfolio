@@ -3,6 +3,7 @@
   height: 100vh;
   display: flex;
   /* margin: 20px; */
+  overflow-x: hidden !important;
 }
 .contact .leftSide{
   height: auto;
@@ -83,4 +84,16 @@ form button{
   color: whitesmoke;
   font-size: 15px;
   cursor: pointer;
+}
+
+@media(max-width:512px){
+  .leftSide{
+    display: none;
+  }
+  .contact .rightSide h1{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    color: #599596;
+  }
 }

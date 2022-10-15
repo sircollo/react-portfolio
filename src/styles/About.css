@@ -78,3 +78,25 @@
   color: #599596;
   padding: 4px;
 }
+
+@media(max-width:512px){
+  .about-image{
+    display: none;
+  }
+  .about-text h1{
+    font-size: 24px;
+  }
+  .about-text p{
+    padding-top:10px !important;
+    font-size: 14px;
+  }
+  .about-text button{
+    border-radius: 18px;
+    height: 40px;
+    width: 150px;
+    align-items: center;
+    font-size: 18px;
+    padding: 8px;
+  }
+
+}

@@ -69,3 +69,43 @@ button:hover{
   background-size: cover;
   margin: 30px;
 }
+
+@media(max-width:512px){
+  .landing{
+    padding: 20px;
+  }
+  .intro-text h1{
+    margin: 0;
+  }
+  .intro-text{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 450px;
+    top: 15%;
+  }
+  .hero-image{
+    display: none;
+  }
+  .buttons button{
+    background-color: #599596;
+    border: none;
+    color: white;
+    width: 120px;
+    height: auto;
+    border-radius: 20px;
+    padding: 2%;
+  }
+  .intro-text span{
+    color:#599596;
+    font-size: 33px;
+  }
+  .buttons{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .myprojects,.contactme{
+    font-size: 14px;
+  }
+}
